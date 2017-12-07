@@ -7,7 +7,7 @@ public class GaussianEliminatorTesting {
                 {1, 6, 8}
         };
         GaussianEliminator eliminator = new GaussianEliminator(myMatrix);
-        eliminator.ref();
+        eliminator.ref(); // computes the row echelon form of a matrix
         eliminator.printMatrix();
     }
 
